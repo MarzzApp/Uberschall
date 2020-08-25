@@ -1,10 +1,13 @@
 {
-  "name": "uberschall",
+  "name": "@marzzapp/uberschall ",
   "version": "0.0.1",
   "description": "Hella lightweight and informative logging system for node",
   "main": "index.js",
   "scripts": {
     "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
