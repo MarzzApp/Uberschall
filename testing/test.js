@@ -1,8 +1,7 @@
 // tests for Uberschall
 
 const uber = require('../index');
-
-
+// jest tests WOOOOOOO 🥳
 test('properly logs with all params provided', async () => {
     const msgParam = "Hey!"
     const origin = "Test"
@@ -44,6 +43,6 @@ test('properly logs with timestamp set to false', async () => {
     expect(testMsg).toBe(expectedMessage);
 })
 
-test('returns an err as no params are provided', async () => {
+test('this one should fail', async () => {
     await expect(uber.logGeneral()).resolves.toMatch('error');
 });
