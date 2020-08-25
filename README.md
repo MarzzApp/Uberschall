@@ -1,2 +1,2 @@
-# Uberschall
- Hella lightweight and customizable logger system for node
+# Überschall (supersonic)
+ Hella lightweight and informative logging system for node

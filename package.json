@@ -1,0 +1,18 @@
+{
+  "name": "uberschall",
+  "version": "0.1",
+  "description": "Hella lightweight and informative logging system for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "logger",
+    "node"
+  ],
+  "author": "Gravity Interactive",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
