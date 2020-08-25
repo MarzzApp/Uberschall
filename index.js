@@ -3,7 +3,7 @@
 /* 
 
 Uberschall takes in arguments, manipulates them into a consice message, logs it, then returns the string it logged back
-to you, should you need to use said string for testin or other callbacks
+to you, should you need to use said string for testing or other callbacks
 
 Uberschall takes in three arguments:
     - The message to log, this is a string
@@ -21,7 +21,7 @@ Uberschall takes in three arguments:
  * @param {boolean} callData.logTime Whether or not to log the timestamp
  */
 
-exports.logGeneral = async (callData) => {
+exports.logGeneral = async function (callData) {
     // this variable holds our final message to be logged
     // it gets augmented as we go through our function params
     let finalMsgConstructor = {
